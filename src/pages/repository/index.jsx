@@ -1,6 +1,12 @@
+import Sidebar from "./Sidebar";
+import Repositories from "./Repositories";
+
 const Repository = () => {
   return (
-    <div>Repository</div>
+    <div className="h-screen w-full flex bg-red-200">
+      <Sidebar />
+      <Repositories />
+    </div>
   )
 }
 

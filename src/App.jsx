@@ -5,8 +5,8 @@ function App() {
 
   return (
     <div className="h-screen w-full bg-yellow-100">
-      <LoginScreen />
-      {/* <RepositoryScreen /> */}
+      {/* <LoginScreen /> */}
+      <RepositoryScreen />
     </div>
   )
 }

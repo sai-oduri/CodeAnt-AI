@@ -107,7 +107,7 @@ const Right = () => {
         </div>
       </div >
 
-      <p className="text-center mt-6">By signing up you agree to the <span className="font-bold">Privacy Policy</span>.</p>
+      <p className="text-center text-[#181D27] mt-6">By signing up you agree to the <span className="font-bold">Privacy Policy</span>.</p>
 
     </div >
   )
