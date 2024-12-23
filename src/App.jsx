@@ -4,7 +4,7 @@ import RepositoryScreen from "./pages/repository";
 function App() {
 
   return (
-    <div className="h-screen w-full bg-yellow-100">
+    <div className="h-screen w-full antialiased">
       {/* <LoginScreen /> */}
       <RepositoryScreen />
     </div>

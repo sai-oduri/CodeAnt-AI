@@ -15,7 +15,7 @@ const SidebarItem = ({ sidebarItem, setSidebarItem, icon, text }) => {
 
   return (
     <button
-      className={`${selectedStyles} transition duration-500 hover:bg-[#1570EF] hover:text-white flex text-[#414651] m-[1px] items-center gap-2 justify-start w-[180px] py-2 px-3  rounded-md`}
+      className={`${selectedStyles} transition duration-300 hover:bg-[#1570EF] hover:text-white flex text-[#414651] m-[1px] items-center gap-2 justify-start w-[180px] py-2 px-3  rounded-md`}
       onClick={() => setSidebarItem(val)}
     >
       {icon}

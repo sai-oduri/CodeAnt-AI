@@ -3,7 +3,7 @@ import Repositories from "./Repositories";
 
 const Repository = () => {
   return (
-    <div className="h-screen w-full flex bg-red-200">
+    <div className="h-screen w-full flex">
       <Sidebar />
       <Repositories />
     </div>
