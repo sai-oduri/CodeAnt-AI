@@ -1,18 +1,25 @@
-import SubtractIcon from "../../assets/Subtract.png";
-import SubtractLargeIcon from "../../assets/SubtractLarge.png";
-import PieChart from "../../assets/ant-design_pie-chart-filled.png";
-import { ArrowUpIcon } from "@heroicons/react/24/outline";
+import SubtractIcon from '../../assets/Subtract.png';
+import SubtractLargeIcon from '../../assets/SubtractLarge.png';
+import PieChart from '../../assets/ant-design_pie-chart-filled.png';
+import { ArrowUpIcon } from '@heroicons/react/24/outline';
 
 const Left = () => {
   return (
     <div className="bg-white relative h-screen w-full border-r-[1px] flex items-center justify-center">
       <div className="w-[474px]">
-
         {/* top */}
         <div className="w-[447px] rounded-2xl bg-white drop-shadow-custom">
           <div className="flex items-center px-5 py-4 border-b-[1px]">
-            <img className="mr-2" src={SubtractIcon} alt="subtract-icon" width={28} height={31} />
-            <p className="font-bold text-secondary">AI to Detect & Autofix Bad Code</p>
+            <img
+              className="mr-2"
+              src={SubtractIcon}
+              alt="subtract-icon"
+              width={28}
+              height={31}
+            />
+            <p className="font-bold text-secondary">
+              AI to Detect & Autofix Bad Code
+            </p>
           </div>
           <div className="flex items-center justify-between px-5 py-6">
             <div className="flex flex-col items-center justify-center">
@@ -55,9 +62,8 @@ const Left = () => {
       <div className="absolute left-0 bottom-0 opacity-40">
         <img src={SubtractLargeIcon} alt="subtract-large-icon" width="214" />
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Left
+export default Left;

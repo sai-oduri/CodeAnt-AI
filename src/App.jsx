@@ -1,9 +1,8 @@
-import { Routes, Route } from "react-router";
-import LoginScreen from "./pages/login";
-import RepositoryScreen from "./pages/repository";
+import { Routes, Route } from 'react-router';
+import LoginScreen from './pages/login';
+import RepositoryScreen from './pages/repository';
 
 function App() {
-
   return (
     <div className="h-screen w-full antialiased">
       <Routes>
@@ -11,7 +10,7 @@ function App() {
         <Route path="/repositories" element={<RepositoryScreen />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

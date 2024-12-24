@@ -1,13 +1,16 @@
-import Sidebar from "./Sidebar";
-import Repositories from "./Repositories";
+import Sidebar from './Sidebar';
+import Repositories from './Repositories';
+import { useState } from 'react';
 
 const Repository = () => {
-  return (
-    <div className="h-screen w-full flex">
-      <Sidebar />
-      <Repositories />
-    </div>
-  )
-}
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-export default Repository
+  return (
+    <div className="h-screen w-full lg:flex">
+      <Sidebar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+      <Repositories isMenuOpen={isMenuOpen} />
+    </div>
+  );
+};
+
+export default Repository;
