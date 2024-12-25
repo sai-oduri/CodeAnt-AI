@@ -55,15 +55,113 @@ const repositoryItemsList = [
     size: 5432,
     days: 7,
   },
+  {
+    title: 'design-system',
+    isPrivate: false,
+    language: 'React',
+    size: 7320,
+    days: 1,
+  },
+  {
+    title: 'codeant-ci-app',
+    isPrivate: true,
+    language: 'Javascript',
+    size: 5871,
+    days: 2,
+  },
+  {
+    title: 'analytics-dashboard',
+    isPrivate: true,
+    language: 'Python',
+    size: 4521,
+    days: 5,
+  },
+  {
+    title: 'mobile-app',
+    isPrivate: false,
+    language: 'Swift',
+    size: 3096,
+    days: 3,
+  },
+  {
+    title: 'e-commerce-platform',
+    isPrivate: true,
+    language: 'Java',
+    size: 6210,
+    days: 6,
+  },
+  {
+    title: 'blog-website',
+    isPrivate: false,
+    language: 'HTML/CSS',
+    size: 1876,
+    days: 4,
+  },
+  {
+    title: 'social-network',
+    isPrivate: true,
+    language: 'PHP',
+    size: 5432,
+    days: 7,
+  },
+  {
+    title: 'design-system',
+    isPrivate: false,
+    language: 'React',
+    size: 7320,
+    days: 1,
+  },
+  {
+    title: 'codeant-ci-app',
+    isPrivate: true,
+    language: 'Javascript',
+    size: 5871,
+    days: 2,
+  },
+  {
+    title: 'analytics-dashboard',
+    isPrivate: true,
+    language: 'Python',
+    size: 4521,
+    days: 5,
+  },
+  {
+    title: 'mobile-app',
+    isPrivate: false,
+    language: 'Swift',
+    size: 3096,
+    days: 3,
+  },
+  {
+    title: 'e-commerce-platform',
+    isPrivate: true,
+    language: 'Java',
+    size: 6210,
+    days: 6,
+  },
+  {
+    title: 'blog-website',
+    isPrivate: false,
+    language: 'HTML/CSS',
+    size: 1876,
+    days: 4,
+  },
+  {
+    title: 'social-network',
+    isPrivate: true,
+    language: 'PHP',
+    size: 5432,
+    days: 7,
+  },
 ];
 
 const Repositories = ({ isMenuOpen }) => {
   return (
     <div className="bg-[#FAFAFA] relative lg:max-h-screen lg:overflow-y-auto w-full lg:p-6">
       {isMenuOpen && (
-        <div className="lg:hidden absolute z-50 top-0 bg-[#6C6C6C]/30 h-full w-full"></div>
+        <div className="lg:hidden absolute z-30 top-0 bg-[#6C6C6C]/30 h-full w-full"></div>
       )}
-      <div className="bg-white border-[1px] lg:rounded-md">
+      <div className="bg-white lg:border-[1px] lg:rounded-md">
         <div className="px-4 py-1  lg:flex justify-between items-center">
           <div className="flex flex-col items-start lg:items-center gap-1  my-2 lg:m-0">
             <h1 className="text-xl font-semibold text-[#181D27]">

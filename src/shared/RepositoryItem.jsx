@@ -2,7 +2,7 @@ import { CircleStackIcon } from '@heroicons/react/24/outline';
 
 const RepositoryItem = ({ title, isPrivate, language, size, days }) => {
   return (
-    <div className="border-t-[1px] p-4 text-[#181D27] hover:bg-[#F5F5F5] transition duration-200">
+    <div className="border-t-[1px] p-4 text-[#181D27] lg:hover:bg-[#F5F5F5] transition duration-200">
       <div className="flex items-center gap-2 mb-2">
         <h2 className="font-medium">{title}</h2>
         <span className="text-xs text-[#175CD3] bg-[#EFF8FF] rounded-xl border border-blue-100 py-[2px] px-2">

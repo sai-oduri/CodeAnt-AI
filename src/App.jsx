@@ -4,7 +4,7 @@ import RepositoryScreen from './pages/repository';
 
 function App() {
   return (
-    <div className="h-screen w-full antialiased">
+    <div className="min-h-screen w-full antialiased">
       <Routes>
         <Route path="*" element={<LoginScreen />} />
         <Route path="/repositories" element={<RepositoryScreen />} />

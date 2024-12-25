@@ -18,9 +18,9 @@ const Sidebar = ({ isMenuOpen, setIsMenuOpen }) => {
   const [sidebarItem, setSidebarItem] = useState('repositories');
 
   return (
-    <div className="bg-white w-full lg:w-[242px] relative lg:flex flex-col items-center justify-between py-4 px-4 lg:px-2">
+    <div className="bg-white sticky top-0 z-40 border-b-[1px] lg:border-b-0 w-full lg:w-[242px] lg:flex flex-col items-center justify-between py-4 px-4 lg:px-2">
       {/* TOP */}
-      <div className="w-full sticky top-0">
+      <div className="w-full">
         <div className="lg:block flex items-center justify-between">
           <img
             src={Logo}
